@@ -1,0 +1,7 @@
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.BasicSystem.Specifications\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.BasicSystem.Specifications\bin\Debug\RapidCase.BasicSystem.Specifications.dll.config
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.BasicSystem.Specifications\bin\Debug\RapidCase.BasicSystem.Specifications.dll
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.BasicSystem.Specifications\bin\Debug\RapidCase.BasicSystem.Specifications.pdb
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.BasicSystem.Specifications\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.BasicSystem.Specifications\obj\Debug\RapidCase.BasicSystem.Specifications.dll
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.BasicSystem.Specifications\obj\Debug\RapidCase.BasicSystem.Specifications.pdb
