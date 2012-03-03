@@ -1,0 +1,14 @@
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\bin\Debug\RapidCase.Common.dll.config
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\bin\Debug\RapidCase.Common.dll
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\bin\Debug\RapidCase.Common.pdb
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\bin\Debug\Ionic.Zip.dll
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\bin\Debug\WebDriver.dll
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\bin\Debug\Ionic.Zip.xml
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\bin\Debug\WebDriver.xml
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\obj\Debug\RapidCase.Common.dll
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\obj\Debug\RapidCase.Common.pdb

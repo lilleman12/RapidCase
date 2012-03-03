@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3a6981c9-d5da-4b67-be06-452164aada15" name="Johan@JOHAN-PC 2012-03-03 19:33:30" runUser="Johan-PC\Johan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="39875048-2048-441b-8624-86654f126164">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Johan_JOHAN-PC 2012-03-03 19_33_30">
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\Selenium.WebDriver.2.20.0\lib\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\SpecFlow.1.8.1\lib\net35\TechTalk.SpecFlow.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\bin\Debug\RapidCase.Common.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\DotNetZip.1.9.1.8\lib\net20\Ionic.Zip.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\Newtonsoft.Json.4.0.6\lib\net40\Newtonsoft.Json.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-03T19:33:30.3696357+01:00" queuing="2012-03-03T19:33:32.0196611+01:00" start="2012-03-03T19:33:32.2371644+01:00" finish="2012-03-03T19:34:30.1530686+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="5" executed="2" error="0" failed="0" timeout="0" aborted="1" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="3" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="JOHAN-PC" outcome="Error" timestamp="2012-03-03T19:34:30.1505686+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SelectLocalMachineAsDatabaseLocation" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.basicsystem.specifications\bin\debug\rapidcase.basicsystem.specifications.dll" id="a262d81a-2405-ff37-36c5-3a823c7c6f38">
+      <Description>Select local machine as database location</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="f011e5a3-56c0-49c4-9ef0-4e5d9d11ff4d" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Initial set up</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.BasicSystem.Specifications/bin/Debug/RapidCase.BasicSystem.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.BasicSystem.Specifications.Setup.InitialSetUpFeature, RapidCase.BasicSystem.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelectLocalMachineAsDatabaseLocation" />
+    </UnitTest>
+    <UnitTest name="SelectRemoteMachineAsDatabaseLocation" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.basicsystem.specifications\bin\debug\rapidcase.basicsystem.specifications.dll" id="1cf2fcd1-9bb4-7359-640e-ae1d47b72bd4">
+      <Description>Select remote machine as database location</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="3e200b38-b15b-4352-a8f3-4207ab230b53" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Initial set up</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.BasicSystem.Specifications/bin/Debug/RapidCase.BasicSystem.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.BasicSystem.Specifications.Setup.InitialSetUpFeature, RapidCase.BasicSystem.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelectRemoteMachineAsDatabaseLocation" />
+    </UnitTest>
+    <UnitTest name="EnterANewPasswordForTheAdministrator" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.basicsystem.specifications\bin\debug\rapidcase.basicsystem.specifications.dll" id="15bede2b-2c9d-8036-da77-19a81576e5a2">
+      <Description>Enter a new password for the administrator</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="755d1b7d-5096-47f6-b62c-b7d53b10c4fe" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Initial set up</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.BasicSystem.Specifications/bin/Debug/RapidCase.BasicSystem.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.BasicSystem.Specifications.Setup.InitialSetUpFeature, RapidCase.BasicSystem.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EnterANewPasswordForTheAdministrator" />
+    </UnitTest>
+    <UnitTest name="RequestPasswordForAdministratorIfItDoNotExist" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.basicsystem.specifications\bin\debug\rapidcase.basicsystem.specifications.dll" id="d03fd5bb-1d9d-bcd8-672f-ac6c1bcf1a73">
+      <Description>Request password for administrator if it do not exist</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="30637546-9951-41be-addd-cc54b5fc48b7" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Initial set up</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.BasicSystem.Specifications/bin/Debug/RapidCase.BasicSystem.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.BasicSystem.Specifications.Setup.InitialSetUpFeature, RapidCase.BasicSystem.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RequestPasswordForAdministratorIfItDoNotExist" />
+    </UnitTest>
+    <UnitTest name="ShowDatabaseLocationSelectionScreenIfDatabaseLocationIsMissing" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.basicsystem.specifications\bin\debug\rapidcase.basicsystem.specifications.dll" id="607ad56f-0bd1-54e5-69b6-976f368d808a">
+      <Description>Show database location selection screen if database location is missing</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="c8bea615-6bb2-4a40-b2eb-f6903c8817e5" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Initial set up</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.BasicSystem.Specifications/bin/Debug/RapidCase.BasicSystem.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.BasicSystem.Specifications.Setup.InitialSetUpFeature, RapidCase.BasicSystem.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShowDatabaseLocationSelectionScreenIfDatabaseLocationIsMissing" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="15bede2b-2c9d-8036-da77-19a81576e5a2" executionId="755d1b7d-5096-47f6-b62c-b7d53b10c4fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1cf2fcd1-9bb4-7359-640e-ae1d47b72bd4" executionId="3e200b38-b15b-4352-a8f3-4207ab230b53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="607ad56f-0bd1-54e5-69b6-976f368d808a" executionId="c8bea615-6bb2-4a40-b2eb-f6903c8817e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a262d81a-2405-ff37-36c5-3a823c7c6f38" executionId="f011e5a3-56c0-49c4-9ef0-4e5d9d11ff4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d03fd5bb-1d9d-bcd8-672f-ac6c1bcf1a73" executionId="30637546-9951-41be-addd-cc54b5fc48b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="755d1b7d-5096-47f6-b62c-b7d53b10c4fe" testId="15bede2b-2c9d-8036-da77-19a81576e5a2" testName="EnterANewPasswordForTheAdministrator" computerName="JOHAN-PC" duration="00:00:03.9454099" startTime="2012-03-03T19:33:32.4246673+01:00" endTime="2012-03-03T19:33:46.6128998+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="755d1b7d-5096-47f6-b62c-b7d53b10c4fe">
+      <Output>
+        <StdOut>Given Administrator do not have a password
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"Administrator do not have a password")]
+        public void GivenAdministratorDoNotHaveAPassword()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+And I have navigated to the default page
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"I have navigated to the default page")]
+        public void GivenIHaveNavigatedToTheDefaultPage()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+And I am requested to enter a password for the administrator
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"I am requested to enter a password for the administrator")]
+        public void GivenIAmRequestedToEnterAPasswordForTheAdministrator()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+When I enter test123 as password and click the submit button
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [When(@"I enter test123 as password and click the submit button")]
+        public void WhenIEnterTest123AsPasswordAndClickTheSubmitButton()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+Then test123 will be saved as the password for the administrator and navigated to RapidCase Development Studio
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Then(@"test123 will be saved as the password for the administrator and navigated to RapidCase Development Studio")]
+        public void ThenTest123WillBeSavedAsThePasswordForTheAdministratorAndNavigatedToRapidCaseDevelopmentStudio()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }</StdOut>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. No matching step definition found for one or more steps.
+[Binding]
+public class StepDefinitions
+{
+    [Given(@"Administrator do not have a password")]
+    public void GivenAdministratorDoNotHaveAPassword()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [Given(@"I am requested to enter a password for the administrator")]
+    public void GivenIAmRequestedToEnterAPasswordForTheAdministrator()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [Given(@"I have navigated to the default page")]
+    public void GivenIHaveNavigatedToTheDefaultPage()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [Then(@"test123 will be saved as the password for the administrator and navigated to RapidCase Development Studio")]
+    public void ThenTest123WillBeSavedAsThePasswordForTheAdministratorAndNavigatedToRapidCaseDevelopmentStudio()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [When(@"I enter test123 as password and click the submit button")]
+    public void WhenIEnterTest123AsPasswordAndClickTheSubmitButton()
+    {
+        ScenarioContext.Current.Pending();
+    }
+}
+</Message>
+          <StackTrace>   at lambda_method(Closure , String , Object[] )
+   at TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   at TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   at TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at RapidCase.BasicSystem.Specifications.Setup.InitialSetUpFeature.ScenarioCleanup() in C:\Users\Johan\Documents\projects\RapidCase\RapidCase.BasicSystem.Specifications\Setup\InitalSetup1.feature.cs:line 0
+   at RapidCase.BasicSystem.Specifications.Setup.InitialSetUpFeature.EnterANewPasswordForTheAdministrator() in c:\Users\Johan\Documents\projects\RapidCase\RapidCase.BasicSystem.Specifications\Setup\InitalSetup.feature:line 37
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3e200b38-b15b-4352-a8f3-4207ab230b53" testId="1cf2fcd1-9bb4-7359-640e-ae1d47b72bd4" testName="SelectRemoteMachineAsDatabaseLocation" computerName="JOHAN-PC" duration="00:00:43.5251686" startTime="2012-03-03T19:33:46.6279000+01:00" endTime="2012-03-03T19:34:30.1530686+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e200b38-b15b-4352-a8f3-4207ab230b53">
+    </UnitTestResult>
+    <UnitTestResult executionId="c8bea615-6bb2-4a40-b2eb-f6903c8817e5" testId="607ad56f-0bd1-54e5-69b6-976f368d808a" testName="ShowDatabaseLocationSelectionScreenIfDatabaseLocationIsMissing" computerName="JOHAN-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8bea615-6bb2-4a40-b2eb-f6903c8817e5">
+    </UnitTestResult>
+    <UnitTestResult executionId="f011e5a3-56c0-49c4-9ef0-4e5d9d11ff4d" testId="a262d81a-2405-ff37-36c5-3a823c7c6f38" testName="SelectLocalMachineAsDatabaseLocation" computerName="JOHAN-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f011e5a3-56c0-49c4-9ef0-4e5d9d11ff4d">
+    </UnitTestResult>
+    <UnitTestResult executionId="30637546-9951-41be-addd-cc54b5fc48b7" testId="d03fd5bb-1d9d-bcd8-672f-ac6c1bcf1a73" testName="RequestPasswordForAdministratorIfItDoNotExist" computerName="JOHAN-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30637546-9951-41be-addd-cc54b5fc48b7">
+    </UnitTestResult>
+  </Results>
+</TestRun>

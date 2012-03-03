@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Initial setup";
+    
+}
+
+<header style="padding-top:50px">
+    <h1>Welcome to RapidCase V0.1</h1>
+    <p class="lead">To get started you need to setup some basic information. You only have to do this ones. After you have saved the information you can change it from the Development Studio or you can change it in the web.config</p>
+</header>
+<section id="DBLocation">
+
+    <h3>RavenDB location</h3>
+    <p>By default the database is located at <b>Localhost</b> on port <b>8080</b>. But if you have put the RavenDB in a diffrent location enter it here</p>
+    <div class="row">
+        <div class="span3">
+            <label>Location</label>
+            <input id="ravenDBLocation" type="text" value="Localhost" class="span3" />
+        </div>
+        <div class="span1">
+            <label>Port</label>
+            <input id="ravenDBPort" type="text" value="8080" class="span1" />
+        </div>
+    </div>
+</section>
+<section id="administrationPassword">
+    <h3>Administration password</h3>
+    <p>Enter the password for the administrator</p>
+    <div class="row">
+        <div class="span3">
+            <input id="password" type="password"  class="span3" />
+        </div>
+    </div>
+</section>
+<input id="saveButton" type="button" value="Save" class="btn" />
+@Html.Partial("_Footer")

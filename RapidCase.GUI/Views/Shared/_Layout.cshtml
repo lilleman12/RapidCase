@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - RapidCase</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="~/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />        
+        <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />        
+        <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/bootstrap/js")"></script>
+        <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/js")"></script>
+        <meta name="viewport" content="width=device-width" />
+    </head>
+    <body data-spy="scroll" data-target=".subnav" data-offset="200">
+        @Html.Partial("_TopNavigation")            
+        <div class="container">            
+            @RenderBody()                      
+        </div>
+    </body>
+</html>

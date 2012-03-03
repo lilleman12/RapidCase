@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ed885c02-633b-46f4-acd9-73bba6e0ca82" name="Johan@JOHAN-PC 2012-03-03 15:45:56" runUser="Johan-PC\Johan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="39875048-2048-441b-8624-86654f126164">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Johan_JOHAN-PC 2012-03-03 15_45_56">
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\Selenium.WebDriver.2.20.0\lib\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\SpecFlow.1.8.1\lib\net35\TechTalk.SpecFlow.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\bin\Debug\RapidCase.Common.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\DotNetZip.1.9.1.8\lib\net20\Ionic.Zip.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\Newtonsoft.Json.4.0.6\lib\net40\Newtonsoft.Json.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-03T15:45:56.1399120+01:00" queuing="2012-03-03T15:45:56.2039140+01:00" start="2012-03-03T15:45:56.2139140+01:00" finish="2012-03-03T15:45:56.6479160+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShowDatabaseLocationSelectionScreenIfDatabaseLocationIsMissing" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.basicsystem.specifications\bin\debug\rapidcase.basicsystem.specifications.dll" id="aeb86a68-2854-fb20-7a92-364d8b8d2c93">
+      <Description>Show database location selection screen if database location is missing</Description>
+      <Execution id="561f1cf4-3358-4ddf-868b-ee28ddcfa437" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Initial set up</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.BasicSystem.Specifications/bin/Debug/RapidCase.BasicSystem.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.BasicSystem.Specifications.SetUp.InitialSetUpFeature, RapidCase.BasicSystem.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShowDatabaseLocationSelectionScreenIfDatabaseLocationIsMissing" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="aeb86a68-2854-fb20-7a92-364d8b8d2c93" executionId="561f1cf4-3358-4ddf-868b-ee28ddcfa437" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="561f1cf4-3358-4ddf-868b-ee28ddcfa437" testId="aeb86a68-2854-fb20-7a92-364d8b8d2c93" testName="ShowDatabaseLocationSelectionScreenIfDatabaseLocationIsMissing" computerName="JOHAN-PC" duration="00:00:00.0822170" startTime="2012-03-03T15:45:56.2139140+01:00" endTime="2012-03-03T15:45:56.6379160+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="561f1cf4-3358-4ddf-868b-ee28ddcfa437">
+      <Output>
+        <StdOut>Given I start up the system for the first time
+-&gt; done: InitalSetUpStepDefinitions.GivenIStartUpTheSystemForTheFirstTime() (0,0s)
+And the database location is not set
+-&gt; done: InitalSetUpStepDefinitions.GivenTheDatabaseLocationIsNotSet() (0,0s)
+When I navigate to the default page
+-&gt; error: Object reference not set to an instance of an object.
+Then I will be asked to enter the location of the database. Either I can select local and port number or a remote url and a port number.
+-&gt; skipped because of previous errors</StdOut>
+        <ErrorInfo>
+          <Message>Test method RapidCase.BasicSystem.Specifications.SetUp.InitialSetUpFeature.ShowDatabaseLocationSelectionScreenIfDatabaseLocationIsMissing threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at RapidCase.Common.SpecFlow.BasePageModel..ctor(IWebDriver webDriver, By knownElementOnPage, String loadUrl) in C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\SpecFlow\BasePageModel.cs:line 18
+   at RapidCase.BasicSystem.Specifications.SetUp.SetUpPageModel..ctor(IWebDriver driver) in C:\Users\Johan\Documents\projects\RapidCase\RapidCase.BasicSystem.Specifications\SetUp\SetUpPageModel.cs:line 16
+   at RapidCase.BasicSystem.Specifications.SetUp.InitalSetUpStepDefinitions.WhenINavigateToTheDefaultPage() in C:\Users\Johan\Documents\projects\RapidCase\RapidCase.BasicSystem.Specifications\SetUp\InitalSetUpStepDefinitions.cs:line 39
+   at lambda_method(Closure , IContextManager )
+   at TechTalk.SpecFlow.Bindings.MethodBinding.InvokeAction(IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   at TechTalk.SpecFlow.Bindings.StepDefinitionBinding.Invoke(IContextManager contextManager, ITestTracer testTracer, Object[] arguments, TimeSpan&amp; duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepArgs stepArgs)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at RapidCase.BasicSystem.Specifications.SetUp.InitialSetUpFeature.ScenarioCleanup() in C:\Users\Johan\Documents\projects\RapidCase\RapidCase.BasicSystem.Specifications\SetUp\InitalSetUp.feature.cs:line 0
+   at RapidCase.BasicSystem.Specifications.SetUp.InitialSetUpFeature.ShowDatabaseLocationSelectionScreenIfDatabaseLocationIsMissing() in c:\Users\Johan\Documents\projects\RapidCase\RapidCase.BasicSystem.Specifications\SetUp\InitalSetUp.feature:line 9
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -5,3 +5,10 @@ C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specificat
 C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\obj\Debug\RapidCase.DeveloperStudio.Specifications.dll
 C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\obj\Debug\RapidCase.DeveloperStudio.Specifications.pdb
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\bin\Debug\Ionic.Zip.dll
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\bin\Debug\WebDriver.dll
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\bin\Debug\Ionic.Zip.xml
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\bin\Debug\WebDriver.xml

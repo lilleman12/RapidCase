@@ -72,11 +72,11 @@ namespace RapidCase.DeveloperStudio.Specifications.BasicFunctions
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("A initial file is loaded the first time I start the RapidCase Development Studio")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "New, Open and save")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("web")]
         public virtual void AInitialFileIsLoadedTheFirstTimeIStartTheRapidCaseDevelopmentStudio()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("A initial file is loaded the first time I start the RapidCase Development Studio", new string[] {
-                        "mytag"});
+                        "web"});
 #line 5
 this.ScenarioSetup(scenarioInfo);
 #line 6
@@ -92,18 +92,20 @@ this.ScenarioSetup(scenarioInfo);
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("When a push the save button the active object is saved")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "New, Open and save")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("web")]
         public virtual void WhenAPushTheSaveButtonTheActiveObjectIsSaved()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("When a push the save button the active object is saved", ((string[])(null)));
-#line 10
-this.ScenarioSetup(scenarioInfo);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("When a push the save button the active object is saved", new string[] {
+                        "web"});
 #line 11
- testRunner.Given("I\'am loged in to the RapidCase Development Studio");
+this.ScenarioSetup(scenarioInfo);
 #line 12
- testRunner.And("I have made som changes");
+ testRunner.Given("I\'am loged in to the RapidCase Development Studio");
 #line 13
- testRunner.When("I press the save button");
+ testRunner.And("I have made som changes");
 #line 14
+ testRunner.When("I press the save button");
+#line 15
  testRunner.Then("my changes is saved to ?");
 #line hidden
             this.ScenarioCleanup();
@@ -113,17 +115,19 @@ this.ScenarioSetup(scenarioInfo);
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("When a log in to the RapidCase Development Studio the configuration is automaticl" +
             "y loaded")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "New, Open and save")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("web")]
         public virtual void WhenALogInToTheRapidCaseDevelopmentStudioTheConfigurationIsAutomaticlyLoaded()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("When a log in to the RapidCase Development Studio the configuration is automaticl" +
-                    "y loaded", ((string[])(null)));
-#line 16
-this.ScenarioSetup(scenarioInfo);
-#line 17
- testRunner.Given("it is not the first time I log in to the RapidCase Development Studio");
+                    "y loaded", new string[] {
+                        "web"});
 #line 18
- testRunner.When("I do a sussesful log in to the RapidCase Development Studio");
+this.ScenarioSetup(scenarioInfo);
 #line 19
+ testRunner.Given("it is not the first time I log in to the RapidCase Development Studio");
+#line 20
+ testRunner.When("I do a sussesful log in to the RapidCase Development Studio");
+#line 21
  testRunner.Then("the configuration is loaded from ?");
 #line hidden
             this.ScenarioCleanup();
