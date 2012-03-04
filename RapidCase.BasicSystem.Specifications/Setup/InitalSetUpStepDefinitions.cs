@@ -101,5 +101,21 @@ namespace RapidCase.BasicSystem.Specifications.Setup
        
 
         #endregion
+
+        #region ""               
+
+        [When(@"I select that my database is on a remote machine\. I enter 127\.0\.0\.1 as database location, port 8080 as port")]
+        public void WhenISelectThatMyDatabaseIsOnARemoteMachine_IEnter127_0_0_1AsDatabaseLocationPort8080AsPort()
+        {
+            setUpPage.LocationTextBoxElement.Set("127.0.0.1");            
+        }
+
+        [Then(@"the database location i saved as http://127\.0\.0\.1:8080")]
+        public void ThenTheDatabaseLocationISavedAsHttp127_0_0_18080()
+        {
+            Assert.AreEqual("127.0.0.1", WebConfigHelper.GetAppSettingValue("DBLocation"));
+            Assert.AreEqual("8080", WebConfigHelper.GetAppSettingValue("DBPort"));
+        }
+        #endregion
     }
 }

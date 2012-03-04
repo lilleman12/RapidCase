@@ -18,25 +18,16 @@ Scenario: Enter setup information correct
 	And I enter test as administration password
 	And I click the save button
 	Then the database location i saved as http://localhost:8080
-	And administration password i saved as test
+	And administration password i saved as test	
 
 @web
 Scenario: Select remote machine as database location
 	Given I start up the system for the first time
-	And database location selection screen i showing
-	When I select that my database is on a remote machine. I enter 127.0.0.1 as database location, port 8080 as port and clicked save button
+	And the database location is not set
+	And the administration password is not set
+	And setup screen i showing	
+	When I select that my database is on a remote machine. I enter 127.0.0.1 as database location, port 8080 as port
+	And I enter test as administration password
+	And I click the save button
 	Then the database location i saved as http://127.0.0.1:8080
-
-@web
-Scenario: Request password for administrator if it do not exist
-	Given Administrator do not have a password	
-	When I navigate to the default page
-	Then I be shown a password field to enter a new password and a button to submit it
-
-@web
-Scenario: Enter a new password for the administrator
-	Given Administrator do not have a password
-	And I have navigated to the default page
-	And I am requested to enter a password for the administrator
-	When I enter test123 as password and click the submit button
-	Then test123 will be saved as the password for the administrator and navigated to RapidCase Development Studio
+	And administration password i saved as test	

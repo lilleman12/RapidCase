@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cbd9f73c-f9bb-472d-8647-a7ee9369ee6b" name="Johan@JOHAN-PC 2012-03-04 21:19:48" runUser="Johan-PC\Johan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="39875048-2048-441b-8624-86654f126164">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Johan_JOHAN-PC 2012-03-04 21_19_48">
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\Selenium.WebDriver.2.20.0\lib\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\SpecFlow.1.8.1\lib\net35\TechTalk.SpecFlow.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\bin\Debug\RapidCase.Common.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\DotNetZip.1.9.1.8\lib\net20\Ionic.Zip.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\Newtonsoft.Json.4.0.6\lib\net40\Newtonsoft.Json.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-04T21:19:48.5223859+01:00" queuing="2012-03-04T21:19:48.6363924+01:00" start="2012-03-04T21:19:48.6453929+01:00" finish="2012-03-04T21:20:03.9892705+01:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="6" executed="6" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="4" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShowDatabaseLocationSelectionScreenIfDatabaseLocationIsMissing" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.basicsystem.specifications\bin\debug\rapidcase.basicsystem.specifications.dll" id="607ad56f-0bd1-54e5-69b6-976f368d808a">
+      <Description>Show database location selection screen if database location is missing</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="b2fabe1e-622a-446d-8128-8d1cc866e695" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Initial set up</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.BasicSystem.Specifications/bin/Debug/RapidCase.BasicSystem.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.BasicSystem.Specifications.Setup.InitialSetUpFeature, RapidCase.BasicSystem.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShowDatabaseLocationSelectionScreenIfDatabaseLocationIsMissing" />
+    </UnitTest>
+    <UnitTest name="EnterSetupInformationCorrect" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.basicsystem.specifications\bin\debug\rapidcase.basicsystem.specifications.dll" id="5abbfa87-d65c-c25d-a8cd-0901fe713af4">
+      <Description>Enter setup information correct</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="f5ce0067-bad5-4f84-aa9a-cef7c6e62cdb" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Initial set up</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.BasicSystem.Specifications/bin/Debug/RapidCase.BasicSystem.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.BasicSystem.Specifications.Setup.InitialSetUpFeature, RapidCase.BasicSystem.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EnterSetupInformationCorrect" />
+    </UnitTest>
+    <UnitTest name="AInitialFileIsLoadedTheFirstTimeIStartTheRapidCaseDevelopmentStudio" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.developerstudio.specifications\bin\debug\rapidcase.developerstudio.specifications.dll" id="fd5c18a6-5934-b007-aee8-c67ef598ac60">
+      <Description>A initial file is loaded the first time I start the RapidCase Development Studio</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="01abeb19-1780-4808-87af-2973bcd4df20" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>New, Open and save</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.DeveloperStudio.Specifications/bin/Debug/RapidCase.DeveloperStudio.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature, RapidCase.DeveloperStudio.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AInitialFileIsLoadedTheFirstTimeIStartTheRapidCaseDevelopmentStudio" />
+    </UnitTest>
+    <UnitTest name="SelectRemoteMachineAsDatabaseLocation" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.basicsystem.specifications\bin\debug\rapidcase.basicsystem.specifications.dll" id="1cf2fcd1-9bb4-7359-640e-ae1d47b72bd4">
+      <Description>Select remote machine as database location</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="7e616ccb-b5c5-4f9a-8315-07f43fe41c1c" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Initial set up</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.BasicSystem.Specifications/bin/Debug/RapidCase.BasicSystem.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.BasicSystem.Specifications.Setup.InitialSetUpFeature, RapidCase.BasicSystem.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelectRemoteMachineAsDatabaseLocation" />
+    </UnitTest>
+    <UnitTest name="WhenALogInToTheRapidCaseDevelopmentStudioTheConfigurationIsAutomaticlyLoaded" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.developerstudio.specifications\bin\debug\rapidcase.developerstudio.specifications.dll" id="f534cc6d-ccd7-79c5-9d4a-e36817d3f99a">
+      <Description>When a log in to the RapidCase Development Studio the configuration is automaticly loaded</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="77c811b4-b618-4431-96d0-ab740fa2aafc" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>New, Open and save</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.DeveloperStudio.Specifications/bin/Debug/RapidCase.DeveloperStudio.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature, RapidCase.DeveloperStudio.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenALogInToTheRapidCaseDevelopmentStudioTheConfigurationIsAutomaticlyLoaded" />
+    </UnitTest>
+    <UnitTest name="WhenAPushTheSaveButtonTheActiveObjectIsSaved" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.developerstudio.specifications\bin\debug\rapidcase.developerstudio.specifications.dll" id="73302206-0dad-245f-b252-a47d9578b55d">
+      <Description>When a push the save button the active object is saved</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="dd9be6c1-84ce-4c3d-9532-96e9fe17dcae" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>New, Open and save</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.DeveloperStudio.Specifications/bin/Debug/RapidCase.DeveloperStudio.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature, RapidCase.DeveloperStudio.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenAPushTheSaveButtonTheActiveObjectIsSaved" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1cf2fcd1-9bb4-7359-640e-ae1d47b72bd4" executionId="7e616ccb-b5c5-4f9a-8315-07f43fe41c1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5abbfa87-d65c-c25d-a8cd-0901fe713af4" executionId="f5ce0067-bad5-4f84-aa9a-cef7c6e62cdb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="607ad56f-0bd1-54e5-69b6-976f368d808a" executionId="b2fabe1e-622a-446d-8128-8d1cc866e695" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73302206-0dad-245f-b252-a47d9578b55d" executionId="dd9be6c1-84ce-4c3d-9532-96e9fe17dcae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f534cc6d-ccd7-79c5-9d4a-e36817d3f99a" executionId="77c811b4-b618-4431-96d0-ab740fa2aafc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd5c18a6-5934-b007-aee8-c67ef598ac60" executionId="01abeb19-1780-4808-87af-2973bcd4df20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7e616ccb-b5c5-4f9a-8315-07f43fe41c1c" testId="1cf2fcd1-9bb4-7359-640e-ae1d47b72bd4" testName="SelectRemoteMachineAsDatabaseLocation" computerName="JOHAN-PC" duration="00:00:02.7748585" startTime="2012-03-04T21:19:48.6493931+01:00" endTime="2012-03-04T21:19:58.1819384+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e616ccb-b5c5-4f9a-8315-07f43fe41c1c">
+      <Output>
+        <StdOut>Given I start up the system for the first time
+-&gt; done: InitalSetUpStepDefinitions.GivenIStartUpTheSystemForTheFirstTime() (0,0s)
+And the database location is not set
+-&gt; done: InitalSetUpStepDefinitions.GivenTheDatabaseLocationIsNotSet() (0,0s)
+And the administration password is not set
+-&gt; done: InitalSetUpStepDefinitions.GivenTheAdministrationPasswordIsNotSet() (0,0s)
+And setup screen i showing
+-&gt; done: InitalSetUpStepDefinitions.GivenSetupScreenIShowing() (1,7s)
+And database location selection screen i showing
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"database location selection screen i showing")]
+        public void GivenDatabaseLocationSelectionScreenIShowing()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+When I select that my database is on a remote machine. I enter 127.0.0.1 as database location, port 8080 as port
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [When(@"I select that my database is on a remote machine\. I enter 127\.0\.0\.1 as database location, port 8080 as port")]
+        public void WhenISelectThatMyDatabaseIsOnARemoteMachine_IEnter127_0_0_1AsDatabaseLocationPort8080AsPort()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+And I enter test as administration password
+-&gt; skipped because of previous errors
+And I click the save button
+-&gt; skipped because of previous errors
+Then the database location i saved as http://127.0.0.1:8080
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Then(@"the database location i saved as http://127\.0\.0\.1:8080")]
+        public void ThenTheDatabaseLocationISavedAsHttp127_0_0_18080()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }</StdOut>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. No matching step definition found for one or more steps.
+[Binding]
+public class StepDefinitions
+{
+    [Given(@"database location selection screen i showing")]
+    public void GivenDatabaseLocationSelectionScreenIShowing()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [Then(@"the database location i saved as http://127\.0\.0\.1:8080")]
+    public void ThenTheDatabaseLocationISavedAsHttp127_0_0_18080()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [When(@"I select that my database is on a remote machine\. I enter 127\.0\.0\.1 as database location, port 8080 as port")]
+    public void WhenISelectThatMyDatabaseIsOnARemoteMachine_IEnter127_0_0_1AsDatabaseLocationPort8080AsPort()
+    {
+        ScenarioContext.Current.Pending();
+    }
+}
+</Message>
+          <StackTrace>   at lambda_method(Closure , String , Object[] )
+   at TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   at TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   at TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at RapidCase.BasicSystem.Specifications.Setup.InitialSetUpFeature.ScenarioCleanup() in C:\Users\Johan\Documents\projects\RapidCase\RapidCase.BasicSystem.Specifications\Setup\InitalSetup1.feature.cs:line 0
+   at RapidCase.BasicSystem.Specifications.Setup.InitialSetUpFeature.SelectRemoteMachineAsDatabaseLocation() in c:\Users\Johan\Documents\projects\RapidCase\RapidCase.BasicSystem.Specifications\Setup\InitalSetup.feature:line 33
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f5ce0067-bad5-4f84-aa9a-cef7c6e62cdb" testId="5abbfa87-d65c-c25d-a8cd-0901fe713af4" testName="EnterSetupInformationCorrect" computerName="JOHAN-PC" duration="00:00:02.7760759" startTime="2012-03-04T21:19:58.1839385+01:00" endTime="2012-03-04T21:20:00.9660976+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5ce0067-bad5-4f84-aa9a-cef7c6e62cdb">
+      <Output>
+        <StdOut>Given I start up the system for the first time
+-&gt; done: InitalSetUpStepDefinitions.GivenIStartUpTheSystemForTheFirstTime() (0,0s)
+And the database location is not set
+-&gt; done: InitalSetUpStepDefinitions.GivenTheDatabaseLocationIsNotSet() (0,0s)
+And the administration password is not set
+-&gt; done: InitalSetUpStepDefinitions.GivenTheAdministrationPasswordIsNotSet() (0,0s)
+And setup screen i showing
+-&gt; done: InitalSetUpStepDefinitions.GivenSetupScreenIShowing() (1,4s)
+When I select the default value local machine as database location, port 8080 as port
+-&gt; done: InitalSetUpStepDefinitions.WhenISelectTheDefaultValueLocalMachineAsDatabaseLocationPort8080AsPort() (0,0s)
+And I enter test as administration password
+-&gt; done: InitalSetUpStepDefinitions.WhenIEnterTestAsAdministrationPassword() (0,2s)
+And I click the save button
+-&gt; done: InitalSetUpStepDefinitions.WhenIClickTheSaveButton() (0,1s)
+Then the database location i saved as http://localhost:8080
+-&gt; done: InitalSetUpStepDefinitions.ThenTheDatabaseLocationISavedAsHttpLocalhost8080() (0,0s)
+And administration password i saved as test
+-&gt; done: InitalSetUpStepDefinitions.ThenAdministrationPasswordISavedAsTest() (0,0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b2fabe1e-622a-446d-8128-8d1cc866e695" testId="607ad56f-0bd1-54e5-69b6-976f368d808a" testName="ShowDatabaseLocationSelectionScreenIfDatabaseLocationIsMissing" computerName="JOHAN-PC" duration="00:00:02.5318202" startTime="2012-03-04T21:20:00.9690978+01:00" endTime="2012-03-04T21:20:03.5052428+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2fabe1e-622a-446d-8128-8d1cc866e695">
+      <Output>
+        <StdOut>Given I start up the system for the first time
+-&gt; done: InitalSetUpStepDefinitions.GivenIStartUpTheSystemForTheFirstTime() (0,0s)
+And the database location is not set
+-&gt; done: InitalSetUpStepDefinitions.GivenTheDatabaseLocationIsNotSet() (0,0s)
+When I navigate to the default page
+-&gt; done: InitalSetUpStepDefinitions.WhenINavigateToTheDefaultPage() (1,5s)
+Then I will be asked to enter the location of the database. Either I can select local and port number or a remote url and a port number.
+-&gt; done: InitalSetUpStepDefinitions.ThenIWillBeAskedToEnterTheLocationOfTheDatabase_EitherICanSelectLocalAndPortNumberOrARemoteUrlAndAPortNumber_() (0,1s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dd9be6c1-84ce-4c3d-9532-96e9fe17dcae" testId="73302206-0dad-245f-b252-a47d9578b55d" testName="WhenAPushTheSaveButtonTheActiveObjectIsSaved" computerName="JOHAN-PC" duration="00:00:00.0672643" startTime="2012-03-04T21:20:03.5082430+01:00" endTime="2012-03-04T21:20:03.9132662+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd9be6c1-84ce-4c3d-9532-96e9fe17dcae">
+      <Output>
+        <StdOut>Given I'am loged in to the RapidCase Development Studio
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"I'am loged in to the RapidCase Development Studio")]
+        public void GivenIAmLogedInToTheRapidCaseDevelopmentStudio()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+And I have made som changes
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"I have made som changes")]
+        public void GivenIHaveMadeSomChanges()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+When I press the save button
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [When(@"I press the save button")]
+        public void WhenIPressTheSaveButton()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+Then my changes is saved to ?
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Then(@"my changes is saved to \?")]
+        public void ThenMyChangesIsSavedTo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }</StdOut>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. No matching step definition found for one or more steps.
+[Binding]
+public class StepDefinitions
+{
+    [Given(@"I have made som changes")]
+    public void GivenIHaveMadeSomChanges()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [Given(@"I'am loged in to the RapidCase Development Studio")]
+    public void GivenIAmLogedInToTheRapidCaseDevelopmentStudio()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [Then(@"my changes is saved to \?")]
+    public void ThenMyChangesIsSavedTo()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [When(@"I press the save button")]
+    public void WhenIPressTheSaveButton()
+    {
+        ScenarioContext.Current.Pending();
+    }
+}
+</Message>
+          <StackTrace>   at lambda_method(Closure , String , Object[] )
+   at TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   at TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   at TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature.ScenarioCleanup() in C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\Basic functions\NewOpenSave.feature.cs:line 0
+   at RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature.WhenAPushTheSaveButtonTheActiveObjectIsSaved() in c:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\Basic functions\NewOpenSave.feature:line 15
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="77c811b4-b618-4431-96d0-ab740fa2aafc" testId="f534cc6d-ccd7-79c5-9d4a-e36817d3f99a" testName="WhenALogInToTheRapidCaseDevelopmentStudioTheConfigurationIsAutomaticlyLoaded" computerName="JOHAN-PC" duration="00:00:00.0078188" startTime="2012-03-04T21:20:03.9162663+01:00" endTime="2012-03-04T21:20:03.9272670+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77c811b4-b618-4431-96d0-ab740fa2aafc">
+      <Output>
+        <StdOut>Given it is not the first time I log in to the RapidCase Development Studio
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"it is not the first time I log in to the RapidCase Development Studio")]
+        public void GivenItIsNotTheFirstTimeILogInToTheRapidCaseDevelopmentStudio()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+When I do a sussesful log in to the RapidCase Development Studio
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [When(@"I do a sussesful log in to the RapidCase Development Studio")]
+        public void WhenIDoASussesfulLogInToTheRapidCaseDevelopmentStudio()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+Then the configuration is loaded from ?
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Then(@"the configuration is loaded from \?")]
+        public void ThenTheConfigurationIsLoadedFrom()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }</StdOut>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. No matching step definition found for one or more steps.
+[Binding]
+public class StepDefinitions
+{
+    [Given(@"it is not the first time I log in to the RapidCase Development Studio")]
+    public void GivenItIsNotTheFirstTimeILogInToTheRapidCaseDevelopmentStudio()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [Then(@"the configuration is loaded from \?")]
+    public void ThenTheConfigurationIsLoadedFrom()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [When(@"I do a sussesful log in to the RapidCase Development Studio")]
+    public void WhenIDoASussesfulLogInToTheRapidCaseDevelopmentStudio()
+    {
+        ScenarioContext.Current.Pending();
+    }
+}
+</Message>
+          <StackTrace>   at lambda_method(Closure , String , Object[] )
+   at TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   at TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   at TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature.ScenarioCleanup() in C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\Basic functions\NewOpenSave.feature.cs:line 0
+   at RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature.WhenALogInToTheRapidCaseDevelopmentStudioTheConfigurationIsAutomaticlyLoaded() in c:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\Basic functions\NewOpenSave.feature:line 21
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="01abeb19-1780-4808-87af-2973bcd4df20" testId="fd5c18a6-5934-b007-aee8-c67ef598ac60" testName="AInitialFileIsLoadedTheFirstTimeIStartTheRapidCaseDevelopmentStudio" computerName="JOHAN-PC" duration="00:00:00.0072795" startTime="2012-03-04T21:20:03.9292671+01:00" endTime="2012-03-04T21:20:03.9402677+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01abeb19-1780-4808-87af-2973bcd4df20">
+      <Output>
+        <StdOut>Given It is the first time I start Developer studio
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"It is the first time I start Developer studio")]
+        public void GivenItIsTheFirstTimeIStartDeveloperStudio()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+When I log in as Administrator
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [When(@"I log in as Administrator")]
+        public void WhenILogInAsAdministrator()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+Then a initial configuration will be loaded in to the RapidCase Development Studio
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Then(@"a initial configuration will be loaded in to the RapidCase Development Studio")]
+        public void ThenAInitialConfigurationWillBeLoadedInToTheRapidCaseDevelopmentStudio()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }</StdOut>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. No matching step definition found for one or more steps.
+[Binding]
+public class StepDefinitions
+{
+    [Given(@"It is the first time I start Developer studio")]
+    public void GivenItIsTheFirstTimeIStartDeveloperStudio()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [Then(@"a initial configuration will be loaded in to the RapidCase Development Studio")]
+    public void ThenAInitialConfigurationWillBeLoadedInToTheRapidCaseDevelopmentStudio()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [When(@"I log in as Administrator")]
+    public void WhenILogInAsAdministrator()
+    {
+        ScenarioContext.Current.Pending();
+    }
+}
+</Message>
+          <StackTrace>   at lambda_method(Closure , String , Object[] )
+   at TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   at TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   at TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature.ScenarioCleanup() in C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\Basic functions\NewOpenSave.feature.cs:line 0
+   at RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature.AInitialFileIsLoadedTheFirstTimeIStartTheRapidCaseDevelopmentStudio() in c:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\Basic functions\NewOpenSave.feature:line 8
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

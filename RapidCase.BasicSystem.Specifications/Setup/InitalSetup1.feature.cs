@@ -137,57 +137,22 @@ this.ScenarioSetup(scenarioInfo);
 #line 25
  testRunner.Given("I start up the system for the first time");
 #line 26
- testRunner.And("database location selection screen i showing");
+ testRunner.And("the database location is not set");
 #line 27
- testRunner.When("I select that my database is on a remote machine. I enter 127.0.0.1 as database l" +
-                    "ocation, port 8080 as port and clicked save button");
+ testRunner.And("the administration password is not set");
 #line 28
- testRunner.Then("the database location i saved as http://127.0.0.1:8080");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Request password for administrator if it do not exist")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Initial set up")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("web")]
-        public virtual void RequestPasswordForAdministratorIfItDoNotExist()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Request password for administrator if it do not exist", new string[] {
-                        "web"});
+ testRunner.And("setup screen i showing");
+#line 29
+ testRunner.When("I select that my database is on a remote machine. I enter 127.0.0.1 as database l" +
+                    "ocation, port 8080 as port");
+#line 30
+ testRunner.And("I enter test as administration password");
 #line 31
-this.ScenarioSetup(scenarioInfo);
+ testRunner.And("I click the save button");
 #line 32
- testRunner.Given("Administrator do not have a password");
+ testRunner.Then("the database location i saved as http://127.0.0.1:8080");
 #line 33
- testRunner.When("I navigate to the default page");
-#line 34
- testRunner.Then("I be shown a password field to enter a new password and a button to submit it");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Enter a new password for the administrator")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Initial set up")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("web")]
-        public virtual void EnterANewPasswordForTheAdministrator()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Enter a new password for the administrator", new string[] {
-                        "web"});
-#line 37
-this.ScenarioSetup(scenarioInfo);
-#line 38
- testRunner.Given("Administrator do not have a password");
-#line 39
- testRunner.And("I have navigated to the default page");
-#line 40
- testRunner.And("I am requested to enter a password for the administrator");
-#line 41
- testRunner.When("I enter test123 as password and click the submit button");
-#line 42
- testRunner.Then("test123 will be saved as the password for the administrator and navigated to Rapi" +
-                    "dCase Development Studio");
+ testRunner.And("administration password i saved as test");
 #line hidden
             this.ScenarioCleanup();
         }
