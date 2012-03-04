@@ -29,14 +29,14 @@ namespace RapidCase.Common.SpecFlow
             Driver.Manage().Timeouts().ImplicitlyWait(new TimeSpan(0, 0, 5));
         }
 
-        [BeforeScenario]
+        [BeforeScenario("web")]
         public static void GoToHomePage()
         {
             Thread.Sleep(1000); // between scenarios can be problematic when running too fast 
             //Driver.Navigate().GoToUrl(GoogleUrl);
         }
 
-        [AfterScenario]
+        [AfterScenario("web")]
         public static void AfterScenario()
         {
         }

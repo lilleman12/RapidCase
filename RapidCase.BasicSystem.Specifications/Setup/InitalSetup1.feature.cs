@@ -93,24 +93,33 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Select local machine as database location")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Enter setup information correct")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Initial set up")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("web")]
-        public virtual void SelectLocalMachineAsDatabaseLocation()
+        public virtual void EnterSetupInformationCorrect()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Select local machine as database location", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Enter setup information correct", new string[] {
                         "web"});
 #line 12
 this.ScenarioSetup(scenarioInfo);
 #line 13
  testRunner.Given("I start up the system for the first time");
 #line 14
- testRunner.And("database location selection screen i showing");
+ testRunner.And("the database location is not set");
 #line 15
- testRunner.When("I select local machine as database location, port 8080 as port and clicked save b" +
-                    "utton");
+ testRunner.And("the administration password is not set");
 #line 16
+ testRunner.And("setup screen i showing");
+#line 17
+ testRunner.When("I select the default value local machine as database location, port 8080 as port");
+#line 18
+ testRunner.And("I enter test as administration password");
+#line 19
+ testRunner.And("I click the save button");
+#line 20
  testRunner.Then("the database location i saved as http://localhost:8080");
+#line 21
+ testRunner.And("administration password i saved as test");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -123,16 +132,16 @@ this.ScenarioSetup(scenarioInfo);
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Select remote machine as database location", new string[] {
                         "web"});
-#line 19
+#line 24
 this.ScenarioSetup(scenarioInfo);
-#line 20
+#line 25
  testRunner.Given("I start up the system for the first time");
-#line 21
+#line 26
  testRunner.And("database location selection screen i showing");
-#line 22
+#line 27
  testRunner.When("I select that my database is on a remote machine. I enter 127.0.0.1 as database l" +
                     "ocation, port 8080 as port and clicked save button");
-#line 23
+#line 28
  testRunner.Then("the database location i saved as http://127.0.0.1:8080");
 #line hidden
             this.ScenarioCleanup();
@@ -146,13 +155,13 @@ this.ScenarioSetup(scenarioInfo);
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Request password for administrator if it do not exist", new string[] {
                         "web"});
-#line 26
+#line 31
 this.ScenarioSetup(scenarioInfo);
-#line 27
+#line 32
  testRunner.Given("Administrator do not have a password");
-#line 28
+#line 33
  testRunner.When("I navigate to the default page");
-#line 29
+#line 34
  testRunner.Then("I be shown a password field to enter a new password and a button to submit it");
 #line hidden
             this.ScenarioCleanup();
@@ -166,17 +175,17 @@ this.ScenarioSetup(scenarioInfo);
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Enter a new password for the administrator", new string[] {
                         "web"});
-#line 32
-this.ScenarioSetup(scenarioInfo);
-#line 33
- testRunner.Given("Administrator do not have a password");
-#line 34
- testRunner.And("I have navigated to the default page");
-#line 35
- testRunner.And("I am requested to enter a password for the administrator");
-#line 36
- testRunner.When("I enter test123 as password and click the submit button");
 #line 37
+this.ScenarioSetup(scenarioInfo);
+#line 38
+ testRunner.Given("Administrator do not have a password");
+#line 39
+ testRunner.And("I have navigated to the default page");
+#line 40
+ testRunner.And("I am requested to enter a password for the administrator");
+#line 41
+ testRunner.When("I enter test123 as password and click the submit button");
+#line 42
  testRunner.Then("test123 will be saved as the password for the administrator and navigated to Rapi" +
                     "dCase Development Studio");
 #line hidden

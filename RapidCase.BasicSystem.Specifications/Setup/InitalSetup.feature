@@ -9,11 +9,16 @@ Scenario: Show database location selection screen if database location is missin
 	Then I will be asked to enter the location of the database. Either I can select local and port number or a remote url and a port number.
 
 @web
-Scenario: Select local machine as database location
+Scenario: Enter setup information correct
 	Given I start up the system for the first time
-	And database location selection screen i showing
-	When I select local machine as database location, port 8080 as port and clicked save button
+	And the database location is not set
+	And the administration password is not set
+	And setup screen i showing
+	When I select the default value local machine as database location, port 8080 as port 
+	And I enter test as administration password
+	And I click the save button
 	Then the database location i saved as http://localhost:8080
+	And administration password i saved as test
 
 @web
 Scenario: Select remote machine as database location

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dccd8704-c709-4ae5-a07e-9681194c69e1" name="Johan@JOHAN-PC 2012-03-04 19:05:34" runUser="Johan-PC\Johan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="39875048-2048-441b-8624-86654f126164">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Johan_JOHAN-PC 2012-03-04 19_05_34">
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\Selenium.WebDriver.2.20.0\lib\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\SpecFlow.1.8.1\lib\net35\TechTalk.SpecFlow.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\RapidCase.Common\bin\Debug\RapidCase.Common.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\DotNetZip.1.9.1.8\lib\net20\Ionic.Zip.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\Newtonsoft.Json.4.0.6\lib\net40\Newtonsoft.Json.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-04T19:05:34.7817382+01:00" queuing="2012-03-04T19:05:34.8447418+01:00" start="2012-03-04T19:05:34.8547424+01:00" finish="2012-03-04T19:05:44.7893106+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShowDatabaseLocationSelectionScreenIfDatabaseLocationIsMissing" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.basicsystem.specifications\bin\debug\rapidcase.basicsystem.specifications.dll" id="607ad56f-0bd1-54e5-69b6-976f368d808a">
+      <Description>Show database location selection screen if database location is missing</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="1e691bd7-0538-48d1-90ea-84529bb0495a" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Initial set up</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.BasicSystem.Specifications/bin/Debug/RapidCase.BasicSystem.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.BasicSystem.Specifications.Setup.InitialSetUpFeature, RapidCase.BasicSystem.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShowDatabaseLocationSelectionScreenIfDatabaseLocationIsMissing" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="607ad56f-0bd1-54e5-69b6-976f368d808a" executionId="1e691bd7-0538-48d1-90ea-84529bb0495a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1e691bd7-0538-48d1-90ea-84529bb0495a" testId="607ad56f-0bd1-54e5-69b6-976f368d808a" testName="ShowDatabaseLocationSelectionScreenIfDatabaseLocationIsMissing" computerName="JOHAN-PC" duration="00:00:02.8177150" startTime="2012-03-04T19:05:34.8777437+01:00" endTime="2012-03-04T19:05:44.7393078+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e691bd7-0538-48d1-90ea-84529bb0495a">
+      <Output>
+        <StdOut>Given I start up the system for the first time
+-&gt; done: InitalSetUpStepDefinitions.GivenIStartUpTheSystemForTheFirstTime() (0,0s)
+And the database location is not set
+-&gt; done: InitalSetUpStepDefinitions.GivenTheDatabaseLocationIsNotSet() (0,0s)
+When I navigate to the default page
+-&gt; done: InitalSetUpStepDefinitions.WhenINavigateToTheDefaultPage() (1,7s)
+Then I will be asked to enter the location of the database. Either I can select local and port number or a remote url and a port number.
+-&gt; done: InitalSetUpStepDefinitions.ThenIWillBeAskedToEnterTheLocationOfTheDatabase_EitherICanSelectLocalAndPortNumberOrARemoteUrlAndAPortNumber_() (0,0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

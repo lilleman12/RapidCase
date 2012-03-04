@@ -15,17 +15,22 @@ namespace RapidCase.BasicSystem.Specifications.Setup
     {
         SetUpPageModel setUpPage;
 
+        #region Common
+        
         [Given(@"I start up the system for the first time")]
         public void GivenIStartUpTheSystemForTheFirstTime()
         {
-            ChangeWebConfig.SetAppSettingValue("FirstTime", "True");            
+            WebConfigHelper.SetAppSettingValue("FirstTime", "True");                           
         }
 
+        #endregion
+
+        #region Show database location selection screen if database location is missing
         [Given(@"the database location is not set")]
         public void GivenTheDatabaseLocationIsNotSet()
         {
-            ChangeWebConfig.SetAppSettingValue("DBLocation", "");
-            ChangeWebConfig.SetAppSettingValue("DBPort", "");
+            WebConfigHelper.SetAppSettingValue("DBLocation", "");
+            WebConfigHelper.SetAppSettingValue("DBPort", "");
         }
 
         [Then(@"I will be asked to enter the location of the database\. Either I can select local and port number or a remote url and a port number\.")]
@@ -35,11 +40,66 @@ namespace RapidCase.BasicSystem.Specifications.Setup
             Assert.IsTrue(setUpPage.LocationTextBoxElement.Displayed);
             Assert.IsTrue(setUpPage.PortTextBoxElment.Displayed);
         }
-
+        
         [When(@"I navigate to the default page")]
         public void WhenINavigateToTheDefaultPage()
         {
-            setUpPage = new SetUpPageModel(Driver);            
+            setUpPage = new SetUpPageModel(Driver);
         }
+        #endregion
+
+        #region  Enter setup information correct
+
+
+        [Given(@"the administration password is not set")]
+        public void GivenTheAdministrationPasswordIsNotSet()
+        {
+            WebConfigHelper.SetAppSettingValue("AdministrationPassword", "");            
+        }
+
+        [Given(@"setup screen i showing")]
+        public void GivenSetupScreenIShowing()
+        {
+            setUpPage = new SetUpPageModel(Driver);
+            Assert.IsTrue(setUpPage.LocationTextBoxElement.Displayed);
+            Assert.IsTrue(setUpPage.PortTextBoxElment.Displayed);
+        }
+
+        [When(@"I select the default value local machine as database location, port 8080 as port")]
+        public void WhenISelectTheDefaultValueLocalMachineAsDatabaseLocationPort8080AsPort()
+        {
+            //Localhost and port 8080 is set by default no action needed
+        }
+        
+        [When(@"I enter test as administration password")]
+        public void WhenIEnterTestAsAdministrationPassword()
+        {
+            setUpPage.AdministrationPasswordTextBoxElement.SendKeys("test");
+            setUpPage.ConfirmAdministrationPasswordTextBoxElement.SendKeys("test");
+        }
+
+        [When(@"I click the save button")]
+        public void WhenIClickTheSaveButton()
+        {
+            setUpPage.SaveButtonElement.Click();
+        }        
+               
+        [Then(@"the database location i saved as http://localhost:8080")]
+        public void ThenTheDatabaseLocationISavedAsHttpLocalhost8080()
+        {
+            Assert.AreEqual("Localhost", WebConfigHelper.GetAppSettingValue("DBLocation"));
+            Assert.AreEqual("8080", WebConfigHelper.GetAppSettingValue("DBPort"));
+        }
+        
+
+        [Then(@"administration password i saved as test")]
+        public void ThenAdministrationPasswordISavedAsTest()
+        {
+            Assert.AreEqual("test", WebConfigHelper.GetAppSettingValue("AdministrationPassword"));
+        }
+
+       
+
+        #endregion
     }
 }

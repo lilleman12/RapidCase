@@ -1,35 +1,65 @@
-﻿@{
+﻿@model RapidCase.GUI.Models.SetupModel
+@{
     ViewBag.Title = "Initial setup";
     
 }
-
-<header style="padding-top:50px">
+<header>
     <h1>Welcome to RapidCase V0.1</h1>
     <p class="lead">To get started you need to setup some basic information. You only have to do this ones. After you have saved the information you can change it from the Development Studio or you can change it in the web.config</p>
 </header>
-<section id="DBLocation">
-
-    <h3>RavenDB location</h3>
-    <p>By default the database is located at <b>Localhost</b> on port <b>8080</b>. But if you have put the RavenDB in a diffrent location enter it here</p>
-    <div class="row">
-        <div class="span3">
-            <label>Location</label>
-            <input id="ravenDBLocation" type="text" value="Localhost" class="span3" />
+@using (Html.BeginForm())
+{       
+    <section id="DBLocation">
+        <h3>RavenDB location</h3>
+        <p>By default the database is located at <b>Localhost</b> on port <b>8080</b>. But if you have put the RavenDB in a diffrent location enter it here</p>
+        
+         <div class="row">
+            <div class="span3">    
+                <div class="control-group">
+                    @Html.LabelFor(x => x.DBLocation)
+                    <div class="controls">                                                        
+                        @Html.TextBoxFor(x => x.DBLocation, new { @class = "span3" })
+                        @Html.ValidationMessageFor(x => x.DBLocation)    
+                    </div>
+                </div>
+            </div>    
+            <div class="span3">
+                <div class="control-group">
+                    @Html.LabelFor(x => x.DBPort)
+                    <div class="controls">                                                     
+                        @Html.TextBoxFor(x=>x.DBPort,new { @class="span1"})
+                        @Html.ValidationMessageFor(x => x.DBPort)    
+                    </div>
+                </div>        
+            </div>    
         </div>
-        <div class="span1">
-            <label>Port</label>
-            <input id="ravenDBPort" type="text" value="8080" class="span1" />
+    </section>
+    <section id="administrationPassword">
+        <h3>Administration password</h3>
+        <p>Enter the password for the administrator</p>
+        <div class="row">
+            <div class="span3">
+                <div class="control-group">
+                    @Html.LabelFor(x => x.AdministratorPassword)
+                    <div class="controls">                                                                             
+                        @Html.PasswordFor(x => x.AdministratorPassword, new { @class = "span3" })
+                        @Html.ValidationMessageFor(x => x.AdministratorPassword)    
+                    </div>
+                </div>                
+            </div>
         </div>
-    </div>
-</section>
-<section id="administrationPassword">
-    <h3>Administration password</h3>
-    <p>Enter the password for the administrator</p>
-    <div class="row">
-        <div class="span3">
-            <input id="password" type="password"  class="span3" />
+        <div class="row">
+            <div class="span3">
+                <div class="control-group">
+                    @Html.LabelFor(x => x.ConfirmAdministratorPassword)
+                    <div class="controls">                                                                             
+                        @Html.PasswordFor(x => x.ConfirmAdministratorPassword, new { @class = "span3" })
+                        @Html.ValidationMessageFor(x => x.ConfirmAdministratorPassword)    
+                    </div>
+                </div>                     
+            </div>
         </div>
-    </div>
-</section>
-<input id="saveButton" type="button" value="Save" class="btn" />
+    </section>                    
+    <input id="saveButton" type="submit" value="Save" class="btn btn-primary" />
+}
 @Html.Partial("_Footer")

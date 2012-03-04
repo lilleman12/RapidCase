@@ -11,9 +11,10 @@ namespace RapidCase.BasicSystem.Specifications.Setup
     public class SetUpPageModel : BasePageModel
     {
         private static readonly String Url = "http://localhost:24289";
-        private static readonly By LocationTextBoxSelector = By.Id("ravenDBLocation");
-        private static readonly By PortTextBoxSelector = By.Id("ravenDBPort");
-        private static readonly By PasswordTextBoxSelector = By.Id("password");
+        private static readonly By LocationTextBoxSelector = By.Id("DBLocation");
+        private static readonly By PortTextBoxSelector = By.Id("DBPort");
+        private static readonly By AdministrationPasswordTextBoxSelector = By.Id("AdministratorPassword");
+        private static readonly By ConfirmAdministrationPasswordTextBoxSelector = By.Id("ConfirmAdministratorPassword");
         private static readonly By SaveButtonSelector = By.Id("saveButton");
 
         public SetUpPageModel(IWebDriver driver)
@@ -31,9 +32,14 @@ namespace RapidCase.BasicSystem.Specifications.Setup
             get { return Driver.GetElement(PortTextBoxSelector); }
         }
 
-        public IWebElement PasswordTextBoxElement
+        public IWebElement AdministrationPasswordTextBoxElement
         {
-            get { return Driver.GetElement(PasswordTextBoxSelector); }
+            get { return Driver.GetElement(AdministrationPasswordTextBoxSelector); }
+        }
+
+        public IWebElement ConfirmAdministrationPasswordTextBoxElement
+        {
+            get { return Driver.GetElement(ConfirmAdministrationPasswordTextBoxSelector); }
         }   
 
         public IWebElement SaveButtonElement

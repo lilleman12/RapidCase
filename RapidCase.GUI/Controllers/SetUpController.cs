@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using RapidCase.GUI.Models;
+using System.IO;
+using System.Text.RegularExpressions;
 
 namespace RapidCase.GUI.Controllers
 {
@@ -13,92 +16,47 @@ namespace RapidCase.GUI.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            SetupModel model = new SetupModel();
+            model.DBLocation = "Localhost";
+            model.DBPort = "8080";
+            return View(model);
         }
-
-        //
-        // GET: /SetUp/Details/5
-
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        //
-        // GET: /SetUp/Create
-
-        public ActionResult Create()
-        {
-            return View();
-        }
-
+       
         //
         // POST: /SetUp/Create
 
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
-        {
+        public ActionResult Index(SetupModel model)
+        {            
             try
             {
-                // TODO: Add insert logic here
 
-                return RedirectToAction("Index");
+                SetAppSettingValue("FirstTime", "False");
+                SetAppSettingValue("DBLocation", model.DBLocation);
+                SetAppSettingValue("DBPort", model.DBPort);
+                SetAppSettingValue("AdministrationPassword", model.AdministratorPassword);
+                return RedirectToAction("Index", "DeveloperStudio");
             }
             catch
             {
-                return View();
+                return View(model);
             }
         }
 
-        //
-        // GET: /SetUp/Edit/5
-
-        public ActionResult Edit(int id)
+        public void SetAppSettingValue(string appSetting, string newValue)
         {
-            return View();
-        }
-
-        //
-        // POST: /SetUp/Edit/5
-
-        [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
-        {
-            try
+            
+            string text;
+            using (StreamReader reader = System.IO.File.OpenText(this.Server.MapPath("~/web.config")))
             {
-                // TODO: Add update logic here
-
-                return RedirectToAction("Index");
+                text = reader.ReadToEnd();
             }
-            catch
+            string appSettingReplaceString = "<add key=\"" + appSetting + "\" value=\"(.*)\" />";
+            string appSettingNewValue = "<add key=\"" + appSetting + "\" value=\"" + newValue + "\" />";
+            text = Regex.Replace(text, appSettingReplaceString, appSettingNewValue, RegexOptions.IgnoreCase);
+            using (StreamWriter writer = new StreamWriter(System.IO.File.Create(this.Server.MapPath("~/web.config"))))
             {
-                return View();
-            }
-        }
-
-        //
-        // GET: /SetUp/Delete/5
-
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        //
-        // POST: /SetUp/Delete/5
-
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
+                writer.Write(text);
             }
         }
     }

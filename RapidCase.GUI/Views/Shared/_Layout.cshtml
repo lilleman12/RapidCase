@@ -4,13 +4,48 @@
         <meta charset="utf-8" />
         <title>@ViewBag.Title - RapidCase</title>
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-        <link href="~/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />        
-        <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />        
+        <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />        
+        <link href="~/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />                
+        <link href="~/bootstrap/css/docs.css" rel="stylesheet" type="text/css" />                
         <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/bootstrap/js")"></script>
         <script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/Scripts/js")"></script>
         <meta name="viewport" content="width=device-width" />
+        <script language="javascript">
+            $(document).ready(function () {
+                $('span.field-validation-valid, span.field-validation-error').each(function () {
+                    $(this).addClass('help-inline');
+                });
+
+                $('form').submit(function () {
+                    if ($(this).valid()) {
+                        $(this).find('div.control-group').each(function () {
+                            if ($(this).find('span.field-validation-error').length == 0) {
+                                $(this).removeClass('error');
+                            }
+                        });
+                    }
+                    else {
+                        $(this).find('div.control-group').each(function () {
+                            if ($(this).find('span.field-validation-error').length > 0) {
+                                $(this).addClass('error');
+                            }
+                        });
+                    }
+                });
+
+                $('form').each(function () {
+                    $(this).find('div.control-group').each(function () {
+                        if ($(this).find('span.field-validation-error').length > 0) {
+                            $(this).addClass('error');
+                        }
+                    });
+                });
+            });
+            
+
+        </script>
     </head>
-    <body data-spy="scroll" data-target=".subnav" data-offset="200">
+    <body data-spy="scroll" data-target=".subnav" data-offset="50">
         @Html.Partial("_TopNavigation")            
         <div class="container">            
             @RenderBody()                      
