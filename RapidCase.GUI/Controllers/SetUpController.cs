@@ -35,7 +35,7 @@ namespace RapidCase.GUI.Controllers
                 SetAppSettingValue("DBLocation", model.DBLocation);
                 SetAppSettingValue("DBPort", model.DBPort);
                 SetAppSettingValue("AdministrationPassword", model.AdministratorPassword);
-                return RedirectToAction("Index", "DeveloperStudio");
+                return RedirectToAction("Index", "DevelopmentStudio");
             }
             catch
             {
