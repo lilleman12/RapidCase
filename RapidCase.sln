@@ -15,19 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidCase.GUI", "RapidCase.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidCase.BasicSystem.Specifications", "RapidCase.BasicSystem.Specifications\RapidCase.BasicSystem.Specifications.csproj", "{500DEE55-B351-4F83-B290-1ABD7DAC4D13}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36E44CE9-F241-444E-8DC9-4D095D0D5D89}"
-	ProjectSection(SolutionItems) = preProject
-		Local.testsettings = Local.testsettings
-		RapidCase1.vsmdi = RapidCase1.vsmdi
-		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidCase.DeveloperStudio.Specifications", "RapidCase.DeveloperStudio.Specifications\RapidCase.DeveloperStudio.Specifications.csproj", "{D5249313-B9F6-46C4-8495-80B2E7DEC75A}"
 EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = RapidCase1.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -83,7 +73,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{500DEE55-B351-4F83-B290-1ABD7DAC4D13} = {84C7ED52-E440-4DC3-A168-7DF13AC32E80}
-		{36E44CE9-F241-444E-8DC9-4D095D0D5D89} = {84C7ED52-E440-4DC3-A168-7DF13AC32E80}
 		{D5249313-B9F6-46C4-8495-80B2E7DEC75A} = {D69B30D4-B1F0-4E7E-A036-6B09CFE4F52D}
 		{9D0BBC92-6DD3-4C39-A72D-9C5B3FB930BF} = {13B57A36-AD04-4849-84CB-0E755520A0A4}
 		{DDA1397A-7199-424F-AAB1-FC5349AB21C4} = {42C7A971-376F-477A-8FE8-3A4803851922}

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bb08ca29-f97a-4c3f-a910-4a80e943b611" name="Johan@JOHAN-PC 2012-03-25 13:29:09" runUser="Johan-PC\Johan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="3b57933c-b1f4-40ae-b1f2-4c200ac8d808">
+    <Deployment runDeploymentRoot="Johan_JOHAN-PC 2012-03-25 13_29_09">
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\Selenium.WebDriver.2.20.0\lib\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\SpecFlow.1.8.1\lib\net35\TechTalk.SpecFlow.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\Newtonsoft.Json.4.0.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\DotNetZip.1.9.1.8\lib\net20\Ionic.Zip.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\NUnit.2.6.0.12054\lib\nunit.framework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-25T13:29:09.1706013+02:00" queuing="2012-03-25T13:29:11.7612059+02:00" start="2012-03-25T13:29:11.9172062+02:00" finish="2012-03-25T13:29:12.5724073+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="3" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="2" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="JOHAN-PC" outcome="Error" timestamp="2012-03-25T13:29:12.5724073+02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="WhenAPushTheSaveButtonTheActiveObjectIsSaved" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.developerstudio.specifications\bin\debug\rapidcase.developerstudio.specifications.dll" id="73302206-0dad-245f-b252-a47d9578b55d">
+      <Description>When a push the save button the active object is saved</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="3394234e-3b49-4322-8cd3-5566b6b9ba76" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>New, Open and save</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.DeveloperStudio.Specifications/bin/Debug/RapidCase.DeveloperStudio.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature, RapidCase.DeveloperStudio.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenAPushTheSaveButtonTheActiveObjectIsSaved" />
+    </UnitTest>
+    <UnitTest name="AInitialFileIsLoadedTheFirstTimeIStartTheRapidCaseDevelopmentStudio" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.developerstudio.specifications\bin\debug\rapidcase.developerstudio.specifications.dll" id="fd5c18a6-5934-b007-aee8-c67ef598ac60">
+      <Description>A initial file is loaded the first time I start the RapidCase Development Studio</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="d8ee82ee-98dd-4531-ba47-3b48d655505b" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>New, Open and save</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.DeveloperStudio.Specifications/bin/Debug/RapidCase.DeveloperStudio.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature, RapidCase.DeveloperStudio.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AInitialFileIsLoadedTheFirstTimeIStartTheRapidCaseDevelopmentStudio" />
+    </UnitTest>
+    <UnitTest name="WhenALogInToTheRapidCaseDevelopmentStudioTheConfigurationIsAutomaticlyLoaded" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.developerstudio.specifications\bin\debug\rapidcase.developerstudio.specifications.dll" id="f534cc6d-ccd7-79c5-9d4a-e36817d3f99a">
+      <Description>When a log in to the RapidCase Development Studio the configuration is automaticly loaded</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="b17a275b-076c-4231-8349-94c257552a87" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>New, Open and save</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.DeveloperStudio.Specifications/bin/Debug/RapidCase.DeveloperStudio.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature, RapidCase.DeveloperStudio.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenALogInToTheRapidCaseDevelopmentStudioTheConfigurationIsAutomaticlyLoaded" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fd5c18a6-5934-b007-aee8-c67ef598ac60" executionId="d8ee82ee-98dd-4531-ba47-3b48d655505b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73302206-0dad-245f-b252-a47d9578b55d" executionId="3394234e-3b49-4322-8cd3-5566b6b9ba76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f534cc6d-ccd7-79c5-9d4a-e36817d3f99a" executionId="b17a275b-076c-4231-8349-94c257552a87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d8ee82ee-98dd-4531-ba47-3b48d655505b" testId="fd5c18a6-5934-b007-aee8-c67ef598ac60" testName="AInitialFileIsLoadedTheFirstTimeIStartTheRapidCaseDevelopmentStudio" computerName="JOHAN-PC" duration="00:00:00.5148009" startTime="2012-03-25T13:29:12.0576064+02:00" endTime="2012-03-25T13:29:12.5724073+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8ee82ee-98dd-4531-ba47-3b48d655505b">
+    </UnitTestResult>
+    <UnitTestResult executionId="3394234e-3b49-4322-8cd3-5566b6b9ba76" testId="73302206-0dad-245f-b252-a47d9578b55d" testName="WhenAPushTheSaveButtonTheActiveObjectIsSaved" computerName="JOHAN-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3394234e-3b49-4322-8cd3-5566b6b9ba76">
+    </UnitTestResult>
+    <UnitTestResult executionId="b17a275b-076c-4231-8349-94c257552a87" testId="f534cc6d-ccd7-79c5-9d4a-e36817d3f99a" testName="WhenALogInToTheRapidCaseDevelopmentStudioTheConfigurationIsAutomaticlyLoaded" computerName="JOHAN-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b17a275b-076c-4231-8349-94c257552a87">
+    </UnitTestResult>
+  </Results>
+</TestRun>

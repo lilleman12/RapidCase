@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="282fc14c-77bd-40fb-8689-a7986f2958e2" name="Johan@JOHAN-PC 2012-03-25 12:59:12" runUser="Johan-PC\Johan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="39875048-2048-441b-8624-86654f126164">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Johan_JOHAN-PC 2012-03-25 12_59_12">
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\Selenium.WebDriver.2.20.0\lib\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\NUnit.2.6.0.12054\lib\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\SpecFlow.1.8.1\lib\net35\TechTalk.SpecFlow.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\DotNetZip.1.9.1.8\lib\net20\Ionic.Zip.dll" />
+      <DeploymentItem filename="C:\Users\Johan\Documents\projects\RapidCase\packages\Newtonsoft.Json.4.0.6\lib\net40\Newtonsoft.Json.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-25T12:59:12.1722538+02:00" queuing="2012-03-25T12:59:13.5622557+02:00" start="2012-03-25T12:59:13.6322558+02:00" finish="2012-03-25T12:59:14.4422570+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AInitialFileIsLoadedTheFirstTimeIStartTheRapidCaseDevelopmentStudio" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.developerstudio.specifications\bin\debug\rapidcase.developerstudio.specifications.dll" id="fd5c18a6-5934-b007-aee8-c67ef598ac60">
+      <Description>A initial file is loaded the first time I start the RapidCase Development Studio</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="7b6817a8-341c-4208-981a-6d305885d828" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>New, Open and save</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.DeveloperStudio.Specifications/bin/Debug/RapidCase.DeveloperStudio.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature, RapidCase.DeveloperStudio.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AInitialFileIsLoadedTheFirstTimeIStartTheRapidCaseDevelopmentStudio" />
+    </UnitTest>
+    <UnitTest name="WhenAPushTheSaveButtonTheActiveObjectIsSaved" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.developerstudio.specifications\bin\debug\rapidcase.developerstudio.specifications.dll" id="73302206-0dad-245f-b252-a47d9578b55d">
+      <Description>When a push the save button the active object is saved</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="b923a7ee-5c78-43bd-9572-b6a79eb6a821" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>New, Open and save</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.DeveloperStudio.Specifications/bin/Debug/RapidCase.DeveloperStudio.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature, RapidCase.DeveloperStudio.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenAPushTheSaveButtonTheActiveObjectIsSaved" />
+    </UnitTest>
+    <UnitTest name="WhenALogInToTheRapidCaseDevelopmentStudioTheConfigurationIsAutomaticlyLoaded" storage="c:\users\johan\documents\projects\rapidcase\rapidcase.developerstudio.specifications\bin\debug\rapidcase.developerstudio.specifications.dll" id="f534cc6d-ccd7-79c5-9d4a-e36817d3f99a">
+      <Description>When a log in to the RapidCase Development Studio the configuration is automaticly loaded</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="web" />
+      </TestCategory>
+      <Execution id="0c004d06-de28-4f8d-8d70-3f03967652d2" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>New, Open and save</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Johan/Documents/projects/RapidCase/RapidCase.DeveloperStudio.Specifications/bin/Debug/RapidCase.DeveloperStudio.Specifications.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature, RapidCase.DeveloperStudio.Specifications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenALogInToTheRapidCaseDevelopmentStudioTheConfigurationIsAutomaticlyLoaded" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="73302206-0dad-245f-b252-a47d9578b55d" executionId="b923a7ee-5c78-43bd-9572-b6a79eb6a821" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f534cc6d-ccd7-79c5-9d4a-e36817d3f99a" executionId="0c004d06-de28-4f8d-8d70-3f03967652d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd5c18a6-5934-b007-aee8-c67ef598ac60" executionId="7b6817a8-341c-4208-981a-6d305885d828" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b923a7ee-5c78-43bd-9572-b6a79eb6a821" testId="73302206-0dad-245f-b252-a47d9578b55d" testName="WhenAPushTheSaveButtonTheActiveObjectIsSaved" computerName="JOHAN-PC" duration="00:00:00.1006679" startTime="2012-03-25T12:59:13.7622560+02:00" endTime="2012-03-25T12:59:14.3822569+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b923a7ee-5c78-43bd-9572-b6a79eb6a821">
+      <Output>
+        <StdOut>Given I'am loged in to the RapidCase Development Studio
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"I'am loged in to the RapidCase Development Studio")]
+        public void GivenIAmLogedInToTheRapidCaseDevelopmentStudio()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+And I have made som changes
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"I have made som changes")]
+        public void GivenIHaveMadeSomChanges()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+When I press the save button
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [When(@"I press the save button")]
+        public void WhenIPressTheSaveButton()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+Then my changes is saved to ?
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Then(@"my changes is saved to \?")]
+        public void ThenMyChangesIsSavedTo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }</StdOut>
+        <ErrorInfo>
+          <Message>Test method RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature.WhenAPushTheSaveButtonTheActiveObjectIsSaved threw exception: 
+NUnit.Framework.InconclusiveException: No matching step definition found for one or more steps.
+[Binding]
+public class StepDefinitions
+{
+    [Given(@"I have made som changes")]
+    public void GivenIHaveMadeSomChanges()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [Given(@"I'am loged in to the RapidCase Development Studio")]
+    public void GivenIAmLogedInToTheRapidCaseDevelopmentStudio()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [Then(@"my changes is saved to \?")]
+    public void ThenMyChangesIsSavedTo()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [When(@"I press the save button")]
+    public void WhenIPressTheSaveButton()
+    {
+        ScenarioContext.Current.Pending();
+    }
+}
+</Message>
+          <StackTrace>    at NUnit.Framework.Assert.Inconclusive(String message, Object[] args)
+   at lambda_method(Closure , String , Object[] )
+   at TechTalk.SpecFlow.UnitTestProvider.NUnitRuntimeProvider.TestInconclusive(String message)
+   at TechTalk.SpecFlow.UnitTestProvider.NUnitRuntimeProvider.TestPending(String message)
+   at TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature.ScenarioCleanup() in C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\Basic functions\NewOpenSave.feature.cs:line 0
+   at RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature.WhenAPushTheSaveButtonTheActiveObjectIsSaved() in c:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\Basic functions\NewOpenSave.feature:line 15
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0c004d06-de28-4f8d-8d70-3f03967652d2" testId="f534cc6d-ccd7-79c5-9d4a-e36817d3f99a" testName="WhenALogInToTheRapidCaseDevelopmentStudioTheConfigurationIsAutomaticlyLoaded" computerName="JOHAN-PC" duration="00:00:00.0098941" startTime="2012-03-25T12:59:14.3822569+02:00" endTime="2012-03-25T12:59:14.3922569+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c004d06-de28-4f8d-8d70-3f03967652d2">
+      <Output>
+        <StdOut>Given it is not the first time I log in to the RapidCase Development Studio
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"it is not the first time I log in to the RapidCase Development Studio")]
+        public void GivenItIsNotTheFirstTimeILogInToTheRapidCaseDevelopmentStudio()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+When I do a sussesful log in to the RapidCase Development Studio
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [When(@"I do a sussesful log in to the RapidCase Development Studio")]
+        public void WhenIDoASussesfulLogInToTheRapidCaseDevelopmentStudio()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+Then the configuration is loaded from ?
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Then(@"the configuration is loaded from \?")]
+        public void ThenTheConfigurationIsLoadedFrom()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }</StdOut>
+        <ErrorInfo>
+          <Message>Test method RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature.WhenALogInToTheRapidCaseDevelopmentStudioTheConfigurationIsAutomaticlyLoaded threw exception: 
+NUnit.Framework.InconclusiveException: No matching step definition found for one or more steps.
+[Binding]
+public class StepDefinitions
+{
+    [Given(@"it is not the first time I log in to the RapidCase Development Studio")]
+    public void GivenItIsNotTheFirstTimeILogInToTheRapidCaseDevelopmentStudio()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [Then(@"the configuration is loaded from \?")]
+    public void ThenTheConfigurationIsLoadedFrom()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [When(@"I do a sussesful log in to the RapidCase Development Studio")]
+    public void WhenIDoASussesfulLogInToTheRapidCaseDevelopmentStudio()
+    {
+        ScenarioContext.Current.Pending();
+    }
+}
+</Message>
+          <StackTrace>    at NUnit.Framework.Assert.Inconclusive(String message, Object[] args)
+   at lambda_method(Closure , String , Object[] )
+   at TechTalk.SpecFlow.UnitTestProvider.NUnitRuntimeProvider.TestInconclusive(String message)
+   at TechTalk.SpecFlow.UnitTestProvider.NUnitRuntimeProvider.TestPending(String message)
+   at TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature.ScenarioCleanup() in C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\Basic functions\NewOpenSave.feature.cs:line 0
+   at RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature.WhenALogInToTheRapidCaseDevelopmentStudioTheConfigurationIsAutomaticlyLoaded() in c:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\Basic functions\NewOpenSave.feature:line 21
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7b6817a8-341c-4208-981a-6d305885d828" testId="fd5c18a6-5934-b007-aee8-c67ef598ac60" testName="AInitialFileIsLoadedTheFirstTimeIStartTheRapidCaseDevelopmentStudio" computerName="JOHAN-PC" duration="00:00:00.0085324" startTime="2012-03-25T12:59:14.4022569+02:00" endTime="2012-03-25T12:59:14.4122569+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b6817a8-341c-4208-981a-6d305885d828">
+      <Output>
+        <StdOut>Given It is the first time I start Developer studio
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"It is the first time I start Developer studio")]
+        public void GivenItIsTheFirstTimeIStartDeveloperStudio()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+When I log in as Administrator
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [When(@"I log in as Administrator")]
+        public void WhenILogInAsAdministrator()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+
+Then a initial configuration will be loaded in to the RapidCase Development Studio
+-&gt; No matching step definition found for the step. Use the following code to create one:
+    [Binding]
+    public class StepDefinitions
+    {
+        [Then(@"a initial configuration will be loaded in to the RapidCase Development Studio")]
+        public void ThenAInitialConfigurationWillBeLoadedInToTheRapidCaseDevelopmentStudio()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }</StdOut>
+        <ErrorInfo>
+          <Message>Test method RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature.AInitialFileIsLoadedTheFirstTimeIStartTheRapidCaseDevelopmentStudio threw exception: 
+NUnit.Framework.InconclusiveException: No matching step definition found for one or more steps.
+[Binding]
+public class StepDefinitions
+{
+    [Given(@"It is the first time I start Developer studio")]
+    public void GivenItIsTheFirstTimeIStartDeveloperStudio()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [Then(@"a initial configuration will be loaded in to the RapidCase Development Studio")]
+    public void ThenAInitialConfigurationWillBeLoadedInToTheRapidCaseDevelopmentStudio()
+    {
+        ScenarioContext.Current.Pending();
+    }
+    
+    [When(@"I log in as Administrator")]
+    public void WhenILogInAsAdministrator()
+    {
+        ScenarioContext.Current.Pending();
+    }
+}
+</Message>
+          <StackTrace>    at NUnit.Framework.Assert.Inconclusive(String message, Object[] args)
+   at lambda_method(Closure , String , Object[] )
+   at TechTalk.SpecFlow.UnitTestProvider.NUnitRuntimeProvider.TestInconclusive(String message)
+   at TechTalk.SpecFlow.UnitTestProvider.NUnitRuntimeProvider.TestPending(String message)
+   at TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature.ScenarioCleanup() in C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\Basic functions\NewOpenSave.feature.cs:line 0
+   at RapidCase.DeveloperStudio.Specifications.BasicFunctions.NewOpenAndSaveFeature.AInitialFileIsLoadedTheFirstTimeIStartTheRapidCaseDevelopmentStudio() in c:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\Basic functions\NewOpenSave.feature:line 8
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

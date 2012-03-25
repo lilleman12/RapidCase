@@ -12,3 +12,5 @@ C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specificat
 C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\bin\Debug\WebDriver.xml
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\bin\Debug\nunit.framework.dll
+C:\Users\Johan\Documents\projects\RapidCase\RapidCase.DeveloperStudio.Specifications\bin\Debug\nunit.framework.xml
